@@ -1,0 +1,607 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inventrax.jungheinrich"
+4    android:versionCode="1"
+5    android:versionName="S1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+12    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+12-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:7:5-71
+12-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:7:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:8:5-67
+13-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:9:5-68
+14-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:9:22-66
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:11:5-79
+16-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+17-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:12:5-75
+17-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:13:5-76
+18-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:14:5-79
+19-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+20-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:15:5-86
+20-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:15:22-83
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:16:5-76
+21-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+22-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:17:5-86
+22-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:17:22-83
+23    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+23-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:18:5-77
+23-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:18:22-74
+24    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+24-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:19:5-74
+24-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:19:22-71
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:20:5-75
+25-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:20:22-72
+26    <uses-permission android:name="android.permission.READ_LOGS" />
+26-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:21:5-67
+26-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:21:22-65
+27    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+27-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:22:5-74
+27-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:22:22-71
+28    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+28-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:23:5-73
+28-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:23:22-71
+29    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+29-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:24:5-74
+29-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:24:22-72
+30    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+30-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:25:5-72
+30-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:25:22-69
+31    <uses-permission android:name="android.permission.WRITE_HISTORY_BOOKMARKS" />
+31-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:26:5-82
+31-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:26:22-79
+32    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+32-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:27:5-73
+32-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:27:22-70
+33    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+33-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:28:5-75
+33-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:28:22-72
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:29:5-81
+34-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:29:22-78
+35    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+35-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:30:5-78
+35-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:30:22-75
+36    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+36-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:31:5-83
+36-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:31:22-80
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:32:5-65
+37-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:32:22-62
+38    <uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+38-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:33:5-78
+38-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:33:22-75
+39    <!-- Keeps the processor from sleeping when a message is received. -->
+40    <uses-permission android:name="android.permission.WAKE_LOCK" />
+40-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:35:5-68
+40-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:35:22-65
+41
+42    <permission
+42-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:36:5-120
+43        android:name="com.inventrax.jungheinrich.permission.C2D_MESSAGE"
+43-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:36:17-81
+44        android:protectionLevel="signature" />
+44-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:36:82-117
+45
+46    <uses-permission android:name="com.inventrax.falconsl.permission.C2D_MESSAGE" />
+46-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:37:5-85
+46-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:37:22-82
+47    <!-- This app has permission to register and receive data message. -->
+48    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+48-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:39:5-82
+48-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:39:22-79
+49    <uses-permission android:name="android.permission.VIBRATE" />
+49-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:40:5-66
+49-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:40:22-63
+50    <uses-permission android:name="android.permission.CAMERA" />
+50-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:32:5-65
+50-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:32:22-62
+51    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+51-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:11:5-79
+51-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:11:22-76
+52    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+52-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:12:5-75
+52-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:12:22-72
+53    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+53-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:13:5-76
+53-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:13:22-73
+54    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+54-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:14:5-79
+54-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:14:22-76
+55    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+55-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:16:5-76
+55-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:16:22-73
+56    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+56-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:20:5-75
+56-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:20:22-72
+57    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+57-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:48:5-81
+57-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:48:22-78
+58    <uses-permission android:name="android.permission.BLUETOOTH" />
+58-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:50:5-68
+58-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:50:22-65
+59    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+59-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:51:5-74
+59-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:51:22-71
+60    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+60-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:52:5-76
+60-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:52:22-73
+61    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+61-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:53:5-73
+61-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:53:22-70
+62    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+62-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:54:5-79
+62-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:54:22-76
+63    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+63-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:55:5-81
+63-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:55:22-78
+64
+65    <!-- Zebra Scanner event permission -->
+66    <uses-permission android:name="zebra.permission.KEY_EVENT_SERVICE" />
+66-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:58:5-73
+66-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:58:22-71
+67
+68    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+69    <uses-feature
+69-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+70        android:name="android.hardware.camera"
+70-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:25:9-47
+71        android:required="false" />
+71-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:26:9-33
+72    <uses-feature
+72-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+73        android:name="android.hardware.camera.front"
+73-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+74        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+74-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+75    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+76    <uses-feature
+76-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+77        android:name="android.hardware.camera.autofocus"
+77-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+78        android:required="false" />
+78-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+79    <uses-feature
+79-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+80        android:name="android.hardware.camera.flash"
+80-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+81        android:required="false" />
+81-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+82    <uses-feature
+82-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+83        android:name="android.hardware.screen.landscape"
+83-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+84        android:required="false" />
+84-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+85    <uses-feature
+85-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+86        android:name="android.hardware.wifi"
+86-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+87        android:required="false" />
+87-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+88
+89    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+89-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+89-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+90
+91    <application
+91-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:60:5-149:19
+92        android:name="com.inventrax.jungheinrich.application.AppController"
+92-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:61:9-77
+93        android:allowBackup="true"
+93-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:62:9-36
+94        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+94-->[androidx.core:core:1.6.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\79a52932fe3e20aca63757741e2cc2d4\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+95        android:debuggable="true"
+96        android:hardwareAccelerated="false"
+96-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:68:9-45
+97        android:icon="@mipmap/in_launcher"
+97-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:63:9-44
+98        android:label="@string/app_name"
+98-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:64:9-42
+99        android:largeHeap="true"
+99-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:67:9-34
+100        android:roundIcon="@mipmap/in_launcher"
+100-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:65:9-49
+101        android:supportsRtl="true"
+101-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:66:9-36
+102        android:testOnly="true"
+103        android:theme="@style/AppTheme"
+103-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:69:9-41
+104        android:usesCleartextTraffic="true" >
+104-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:70:9-44
+105        <activity
+105-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:73:9-84:20
+106            android:name="com.inventrax.jungheinrich.activities.LoginActivity"
+106-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:74:13-79
+107            android:exported="true"
+107-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:78:13-36
+108            android:hardwareAccelerated="true"
+108-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:77:13-48
+109            android:screenOrientation="portrait"
+109-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:75:13-49
+110            android:windowSoftInputMode="adjustPan" >
+110-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:76:13-52
+111            <intent-filter>
+111-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:79:13-83:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:80:17-69
+112-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:80:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:82:17-77
+114-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:82:27-74
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:86:9-93:20
+118            android:name="com.inventrax.jungheinrich.activities.MainActivity"
+118-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:87:13-78
+119            android:exported="false"
+119-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:89:13-37
+120            android:hardwareAccelerated="true"
+120-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:90:13-48
+121            android:label="@string/app_name"
+121-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:88:13-45
+122            android:screenOrientation="portrait"
+122-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:92:13-49
+123            android:windowSoftInputMode="adjustPan" >
+123-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:91:13-52
+124        </activity>
+125        <activity
+125-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:95:9-100:52
+126            android:name="com.inventrax.jungheinrich.activities.SettingsActivity"
+126-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:96:13-82
+127            android:exported="false"
+127-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:98:13-37
+128            android:hardwareAccelerated="true"
+128-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:99:13-48
+129            android:label="Settings"
+129-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:97:13-37
+130            android:screenOrientation="portrait" />
+130-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:100:13-49
+131        <activity
+131-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:103:9-109:63
+132            android:name="com.inventrax.jungheinrich.activities.CaptureActivityPortrait"
+132-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:104:13-89
+133            android:exported="false"
+133-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:107:13-37
+134            android:screenOrientation="portrait"
+134-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:105:13-49
+135            android:stateNotNeeded="true"
+135-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:106:13-42
+136            android:theme="@style/zxing_CaptureTheme"
+136-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:108:13-54
+137            android:windowSoftInputMode="stateAlwaysHidden" />
+137-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:109:13-60
+138
+139        <!-- <service android:name="com.inventrax.gsknewCo.services.appupdate.UpdateService" /> -->
+140
+141
+142        <!-- <service android:name="com.inventrax.gsknewCo.services.InactivityLogoutService" /> -->
+143
+144
+145        <!-- <receiver android:name="com.inventrax.gsknewCo.services.appupdate.WakefulReceiver" /> -->
+146
+147
+148        <!--
+149        <receiver
+150            android:name="com.inventrax.gsknewCo.services.gcm.GcmBroadcastReceiver"
+151            android:permission="com.google.android.c2dm.permission.SEND"
+152            android:exported="true">
+153            <intent-filter>
+154                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+156
+157                <category android:name="com.inventrax.gsk" />
+158            </intent-filter>
+159        </receiver>
+160        -->
+161
+162
+163        <!-- <service android:name="com.inventrax.gsknewCo.services.gcm.GCMNotificationIntentService" /> -->
+164
+165        <provider
+166            android:name="androidx.core.content.FileProvider"
+166-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:135:13-62
+167            android:authorities="com.inventrax.jungheinrich.provider"
+167-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:136:13-60
+168            android:exported="false"
+168-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:137:13-37
+169            android:grantUriPermissions="true" >
+169-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:138:13-47
+170            <meta-data
+170-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:139:13-141:58
+171                android:name="android.support.FILE_PROVIDER_PATHS"
+171-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:140:17-67
+172                android:resource="@xml/provider_paths" />
+172-->D:\Ganesh\https_jungheinrich\app\src\main\AndroidManifest.xml:141:17-55
+173        </provider>
+174
+175        <!--
+176            <service
+177            android:name="com.inventrax.gsknewCo.services.InactivityLogoutService"
+178            android:enabled="true"
+179            android:exported="false" />
+180        -->
+181
+182        <activity
+182-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:9-217
+183            android:name="org.acra.dialog.CrashReportDialog"
+183-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:123-171
+184            android:excludeFromRecents="true"
+184-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:19-52
+185            android:finishOnTaskLaunch="true"
+185-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:53-86
+186            android:launchMode="singleInstance"
+186-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:87-122
+187            android:theme="@android:style/Theme.Dialog" />
+187-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:40:172-215
+188
+189        <service
+189-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:42:9-113
+190            android:name="org.acra.sender.SenderService"
+190-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:42:43-87
+191            android:exported="false"
+191-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:42:18-42
+192            android:process=":acra" />
+192-->[ch.acra:acra:4.9.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\05cba70bd8a93d27269bb1836b3c1280\transformed\jetified-acra-4.9.0\AndroidManifest.xml:42:88-111
+193
+194        <activity
+194-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+195            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+195-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+196            android:clearTaskOnLaunch="true"
+196-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+197            android:screenOrientation="sensorLandscape"
+197-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+198            android:stateNotNeeded="true"
+198-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+199            android:theme="@style/zxing_CaptureTheme"
+199-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+200            android:windowSoftInputMode="stateAlwaysHidden" />
+200-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\ganesh.m\.gradle\caches\transforms-3\9dad6789c6a70114174af89d48675dc7\transformed\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+201        <activity
+201-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\c276ba805f8fff0163482752fadfdd29\transformed\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:9-172
+202            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+202-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\c276ba805f8fff0163482752fadfdd29\transformed\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:19-85
+203            android:exported="false"
+203-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\c276ba805f8fff0163482752fadfdd29\transformed\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:146-170
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.android.gms:play-services-base:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\c276ba805f8fff0163482752fadfdd29\transformed\jetified-play-services-base-10.2.1\AndroidManifest.xml:19:86-145
+205
+206        <meta-data
+206-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\cdf29f156fc56c9f23d25911a61f36b2\transformed\jetified-play-services-basement-10.2.1\AndroidManifest.xml:20:9-121
+207            android:name="com.google.android.gms.version"
+207-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\cdf29f156fc56c9f23d25911a61f36b2\transformed\jetified-play-services-basement-10.2.1\AndroidManifest.xml:20:20-65
+208            android:value="@integer/google_play_services_version" />
+208-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\cdf29f156fc56c9f23d25911a61f36b2\transformed\jetified-play-services-basement-10.2.1\AndroidManifest.xml:20:66-119
+209
+210        <provider
+210-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+211            android:name="androidx.startup.InitializationProvider"
+211-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+212            android:authorities="com.inventrax.jungheinrich.androidx-startup"
+212-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+213            android:exported="false" >
+213-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+214            <meta-data
+214-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+215                android:name="androidx.work.WorkManagerInitializer"
+215-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+216                android:value="androidx.startup" />
+216-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+217        </provider>
+218
+219        <service
+219-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+220            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+220-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+222            android:enabled="@bool/enable_system_alarm_service_default"
+222-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+223            android:exported="false" />
+223-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+224        <service
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+225            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+227            android:enabled="@bool/enable_system_job_service_default"
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+228            android:exported="true"
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+229            android:permission="android.permission.BIND_JOB_SERVICE" />
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+230        <service
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+231            android:name="androidx.work.impl.foreground.SystemForegroundService"
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+233            android:enabled="@bool/enable_system_foreground_service_default"
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+234            android:exported="false" />
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+235
+236        <receiver
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+237            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+238            android:directBootAware="false"
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+239            android:enabled="true"
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+240            android:exported="false" />
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+241        <receiver
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+242            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+244            android:enabled="false"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+245            android:exported="false" >
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+246            <intent-filter>
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+247                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+248                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+252            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+254            android:enabled="false"
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+257                <action android:name="android.intent.action.BATTERY_OKAY" />
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+258                <action android:name="android.intent.action.BATTERY_LOW" />
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+262            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+264            android:enabled="false"
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+265            android:exported="false" >
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+266            <intent-filter>
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+267                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+268                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+272            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+274            android:enabled="false"
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+275            android:exported="false" >
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+277                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+278            </intent-filter>
+279        </receiver>
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+281            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+283            android:enabled="false"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+284            android:exported="false" >
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+285            <intent-filter>
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+286                <action android:name="android.intent.action.BOOT_COMPLETED" />
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+287                <action android:name="android.intent.action.TIME_SET" />
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+288                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+289            </intent-filter>
+290        </receiver>
+291        <receiver
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+292            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+294            android:enabled="@bool/enable_system_alarm_service_default"
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+295            android:exported="false" >
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+296            <intent-filter>
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+297                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+298            </intent-filter>
+299        </receiver>
+300        <receiver
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+301            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+302            android:directBootAware="false"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+303            android:enabled="true"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+304            android:exported="true"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+305            android:permission="android.permission.DUMP" >
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+306            <intent-filter>
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+307                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\ganesh.m\.gradle\caches\transforms-3\1d2f6dac9fc2a4dac77f2b3f82bea1fa\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+308            </intent-filter>
+309        </receiver>
+310
+311        <service
+311-->[androidx.room:room-runtime:2.2.5] C:\Users\ganesh.m\.gradle\caches\transforms-3\28ffdc274b6ea285f400bf1bece3e2cb\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+312            android:name="androidx.room.MultiInstanceInvalidationService"
+312-->[androidx.room:room-runtime:2.2.5] C:\Users\ganesh.m\.gradle\caches\transforms-3\28ffdc274b6ea285f400bf1bece3e2cb\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+313            android:directBootAware="true"
+313-->[androidx.room:room-runtime:2.2.5] C:\Users\ganesh.m\.gradle\caches\transforms-3\28ffdc274b6ea285f400bf1bece3e2cb\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+314            android:exported="false" />
+314-->[androidx.room:room-runtime:2.2.5] C:\Users\ganesh.m\.gradle\caches\transforms-3\28ffdc274b6ea285f400bf1bece3e2cb\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+315    </application>
+316
+317</manifest>

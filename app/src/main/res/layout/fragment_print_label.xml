@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/skubiqstrefs"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="vertical"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/tvSelectWarehouse"
+                    style="@style/textViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@color/ashblack"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="@string/warehouse"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                    android:id="@+id/spinnerSelectWarehouse"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/skubiqstrefs"
+                    android:layout_marginTop="15dp">
+
+                </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/imgselectvehicle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/spinnerSelectWarehouse"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tvSelectTenant"
+                    style="@style/textViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/imgselectvehicle"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@color/ashblack"
+                    android:padding="3dp"
+                    android:text="@string/tenant"
+
+                    android:textSize="14dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                    android:id="@+id/spinnerSelectTenant"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/imgselectvehicle"
+                    android:layout_weight="1">
+
+                </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/go"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</RelativeLayout>

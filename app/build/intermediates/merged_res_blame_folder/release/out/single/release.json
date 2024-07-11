@@ -1,0 +1,878 @@
+[
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_sorting.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_sorting.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_packing.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_packing.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_navigation_drawer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_local_dev.crt.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\local_dev.crt"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_shipper_logo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\shipper_logo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_list_row_selector.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\list_row_selector.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_goodsin.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_goodsin.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_load_sheet_generation.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_load_sheet_generation.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_putaway_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_putaway_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_print_sku_label.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_print_sku_label.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_falconlogo.jpg.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\falconlogo.jpg"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_fullscreen_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\fullscreen_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_clear.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\clear.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_minus.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\minus.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_warning.mp3.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\warning.mp3"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_picking_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_picking_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_outbound.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_outbound.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_button_cross_close.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\button_cross_close.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_details_flagged_bins.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_details_flagged_bins.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_inner_transfer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_inner_transfer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_divider.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\divider.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_sku_bag.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\sku_bag.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_newvip.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\newvip.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_scanner.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\scanner.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_falconwms_logo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\falconwms_logo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_stocktake.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_stocktake.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_inventory.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_inventory.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_sdk_list.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\sdk_list.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_housekeeping.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\housekeeping.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_packinginfo_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\packinginfo_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_putaway_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_putaway_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_doneall.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\doneall.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_go.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\go.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_vna_transfers.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_vna_transfers.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_livestock_row_rsn.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\livestock_row_rsn.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_border_storke.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\border_storke.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_account.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\account.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_cyclecount_location_layout.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\cyclecount_location_layout.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_logo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_bintransfer.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_bintransfer.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_putaway.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_putaway.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\xml_provider_paths.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_picking.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\picking.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_search.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_toolbar.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_list_item.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_obdpicking_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_obdpicking_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_stock.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\stock.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_barcode_scan_img.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\barcode_scan_img.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\menu_menu_main.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_falconwms_r.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\falconwms_r.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_location.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\location.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_sorting_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\sorting_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_internaltransfer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_internaltransfer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_master_data.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_master_data.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_inv_newlogo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\inv_newlogo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_action_youtube_link.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_action_youtube_link.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_in_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-hdpi\\in_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_vlpd_picking_backup.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_vlpd_picking_backup.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_to_in_drop_location.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_to_in_drop_location.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_button_hide.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\button_hide.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_save.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\save.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\anim_bounce_animation.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\anim\\bounce_animation.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_cross_circle.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\cross_circle.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_pass.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\pass.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_gsk_production.crt.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\gsk_production.crt"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_outbound_revert.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_outbound_revert.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_putaway.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\putaway.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_printer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_printer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_skip_dialog.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\skip_dialog.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_button_shape.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_in_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxxhdpi\\in_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_packinginfo.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_packinginfo.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_joborder.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_joborder.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_warning_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\warning_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_vesuvius_new.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\vesuvius_new.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_bin_to_bin.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\bin_to_bin.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_materialtransfer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_materialtransfer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_delete_vlpdpickeditems.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_delete_vlpdpickeditems.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_adapter_list_group.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\adapter_list_group.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_up_arrow.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\up_arrow.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_lock_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\lock_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_mlogo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\mlogo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_in_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxhdpi\\in_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_success.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\success.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_gsk_picking_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_gsk_picking_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_searchable_list_dialog.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\searchable_list_dialog.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_nav_header_navigation_bar.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\nav_header_navigation_bar.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_adapter_list_item.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\adapter_list_item.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_item_putaway.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_item_putaway.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_error.mp3.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\error.mp3"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_sample_pick_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_sample_pick_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_cyclecount_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_cyclecount_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_transfer_putaway.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_transfer_putaway.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_delete_item_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\delete_item_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_activity_login.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_check.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\check.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_putaway_pallet_transfers.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_putaway_pallet_transfers.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_price_tag.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\price_tag.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_down.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\down.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_unloading.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_unloading.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_loading.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_loading.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_internalpicking_layout.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\internalpicking_layout.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_load_sheet_obd_list.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\load_sheet_obd_list.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_success.mp3.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\success.mp3"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_sku_list_iem_view.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\sku_list_iem_view.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_clear_black_24dp.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_clear_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_settings.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_close_xml.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\close_xml.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_new_load_sheet.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_new_load_sheet.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_nav_drawer_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\nav_drawer_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_identity.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\identity.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_palletization.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_palletization.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_vip.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\vip.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_cyclecount.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_cyclecount.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_header_flagged_bins.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_header_flagged_bins.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_internal_bin_transfer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_internal_bin_transfer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_receiving.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\receiving.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_cyclecount_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_cyclecount_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_exception.mp3.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\exception.mp3"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_home.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_stock_transfer_picking.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_stock_transfer_picking.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_button_close_shape.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\button_close_shape.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_inventrax_logo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\inventrax_logo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_internaltrans.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_internaltrans.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_alert_dialog.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_picking_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_picking_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_right_arrow_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\right_arrow_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_list_group.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_goodsin.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_goodsin.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_skip.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\skip.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_uat.crt.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\uat.crt"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_cycle_count.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\cycle_count.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_delete.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_pallet_tranfers.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_pallet_tranfers.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_deletepickitems_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\deletepickitems_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_cc_export_row.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\cc_export_row.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_pickinglistitem.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\pickinglistitem.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_cc_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_cc_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_pick.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\pick.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_outboundrevert_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_outboundrevert_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_plusminus.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\plusminus.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_home.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_cc_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_cc_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_gsk_picking_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_gsk_picking_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_in_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-xhdpi\\in_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_critical.mp3.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\critical.mp3"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_activity_settings.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_work_order_adapter.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_work_order_adapter.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_update.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\update.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_email_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\email_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_sloc_avaiable_list.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\sloc_avaiable_list.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_dashboard.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_dashboard.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_downarrow.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\downarrow.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_merlin.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\merlin.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_settings.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\raw_gsk_prod.cer.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\raw\\gsk_prod.cer"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_home_img.jpg.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\home_img.jpg"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_internal_picking_header.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_internal_picking_header.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_delete_obdpickeditems.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_delete_obdpickeditems.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_vesuvius.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\vesuvius.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_list_item_bg_pressed.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_print_label.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_print_label.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_navigation_drawer_withlist.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_navigation_drawer_withlist.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_link_break.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\link_break.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_internal_picking_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_internal_picking_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_down_arrow.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\down_arrow.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_home_grid.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\home_grid.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_load_sheet.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_load_sheet.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_workorder_revert.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_workorder_revert.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_gsk_logo.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\gsk_logo.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_invalid_cross.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\invalid_cross.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_livestock.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_livestock.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_obdpickup.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_obdpickup.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_logomarker.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\logomarker.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_flaggedlayout.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\flaggedlayout.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_work_order_revert_details.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_work_order_revert_details.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_fwms.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\fwms.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_inbound.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_inbound.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_action_menu_home.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_action_menu_home.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_print.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\print.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_inventrax.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\inventrax.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_menu_vlpdlist.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\menu_vlpdlist.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_vlpd_picking.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_vlpd_picking.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_remove.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\remove.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_vesuvius_logo.jpg.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\vesuvius_logo.jpg"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_transfer.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_transfer.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_button_shape_red.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\button_shape_red.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_gammco.jpg.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\gammco.jpg"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_about.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_obd_picking.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_obd_picking.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_live_stock.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\live_stock.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_palletization_unloading.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_palletization_unloading.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_technology.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\technology.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_action_check_update.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_action_check_update.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_action_phone_call.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\ic_action_phone_call.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_plus.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\plus.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_show_password.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\show_password.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_myborder.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\myborder.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_putaway.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\fragment_putaway.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\layout_pickinglayout.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\layout\\pickinglayout.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_close.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_check_circle_img.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\check_circle_img.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_in_launcher.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\mipmap-mdpi\\in_launcher.png"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_custom_expandable.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\custom_expandable.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_count_label_shape.xml.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\count_label_shape.xml"
+    },
+    {
+        "merged": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\merged_res\\release\\drawable_vesuvius_logo_new.png.flat",
+        "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\drawable\\vesuvius_logo_new.png"
+    }
+]

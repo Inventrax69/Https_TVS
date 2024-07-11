@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.2" type="incidents">
+
+    <incident
+        id="DuplicateIds"
+        severity="fatal"
+        message="Duplicate id `@+id/spinnerSelectTenant`, already defined earlier in this layout">
+        <location
+            file="$APP/src/main/res/layout/fragment_item_putaway.xml"
+            line="75"
+            column="13"
+            startOffset="2917"
+            endLine="75"
+            endColumn="50"
+            endOffset="2954"/>
+        <location
+            file="$APP/src/main/res/layout/fragment_item_putaway.xml"
+            line="53"
+            column="13"
+            startOffset="2043"
+            endLine="53"
+            endColumn="50"
+            endOffset="2080"
+            message="Duplicate id `@+id/spinnerSelectTenant` originally defined here"/>
+    </incident>
+
+</incidents>

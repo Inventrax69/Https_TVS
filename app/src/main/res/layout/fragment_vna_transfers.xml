@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/rlLoadPallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:visibility="visible">
+
+
+        <RadioGroup
+            android:id="@+id/radioOperation"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <RadioButton
+                android:id="@+id/radioAuto"
+                android:text="Auto"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radioPutaway"
+                android:text="Putaway"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radioPicking"
+                android:text="Picking"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/labStRef"
+            style="@style/textViewStyle"
+            android:layout_below="@+id/radioOperation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Operation:">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvStRef"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/radioOperation"
+            android:textStyle="normal"
+            android:layout_toRightOf="@+id/labStRef"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/lblVLPDNumber"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/labStRef"
+            android:text="VLDP:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVLPDNumber"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/labStRef"
+            android:layout_toRightOf="@+id/lblVLPDNumber"
+            android:text=""
+            android:textStyle="normal"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txtPenPallet"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            android:layout_below="@+id/txtVLPDNumber"
+            android:text="" />
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/txtPenPallet"
+            android:id="@+id/layoutScan"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvScanFromActualLocation"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/ivScanFromActualLocation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/check" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/tvScanFromActualLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Actual Loc"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/cvScanFromActualLocation"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvScanPallet"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardBackgroundColor="@color/palletColor"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/ivScanPallet"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fullscreen_img" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/tvScanPallet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cvScanPallet"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/scanPallet"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvScanToLocation"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardBackgroundColor="@color/locationColor"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/ivScanToLocation"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fullscreen_img" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/tvScanToLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suggested loc"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/cvScanToLocation"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/layoutScan"
+            android:id="@+id/layoutScan1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputLayoutActualLoc"
+                android:layout_width="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@+id/lblDesc"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/etFromLocation"
+                    style="@style/editTextStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Actual Location"
+                    android:textStyle="bold"
+                    android:inputType="text"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:longClickable="false"
+                    android:focusable="false"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputLayoutPallet"
+            android:layout_width="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/lblDesc"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginRight="10dp">
+
+            <EditText
+                android:id="@+id/etPallet"
+                style="@style/editTextStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pallet No"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:clickable="false"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:longClickable="false"
+                android:focusable="false"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputLayoutToLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutScan1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:focusable="false">
+
+                <EditText
+                    android:id="@+id/etToLocation"
+                    style="@style/editTextStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="Sugg. Location"
+                    android:inputType="number"
+                    android:longClickable="false"
+                    android:singleLine="true"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_above="@+id/btnCloseLoadPallet"
+            android:background="@drawable/button_shape"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_above="@+id/btnSkip"
+            android:background="@drawable/button_shape"
+            android:text="Start Suggest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_above="@+id/btnSkip"
+            android:background="@drawable/button_shape"
+            android:text="Stop Suggest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_above="@+id/btnCloseLoadPallet"
+            android:background="@drawable/button_shape"
+            android:text="@string/clear"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/btnCloseLoadPallet"
+            android:background="@drawable/button_shape"
+            android:text="Skip"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnCloseLoadPallet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_close_shape"
+            android:foreground="@drawable/button_cross_close"
+            android:foregroundGravity="center"
+            android:text="@string/putaway"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

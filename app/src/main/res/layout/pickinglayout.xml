@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/pickLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        android:paddingBottom="5dp"
+        android:text="dcff"
+        android:textColor="@color/black"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <TextView
+        android:id="@+id/pickSku"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@+id/pickLocation"
+        android:paddingBottom="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <TextView
+        android:id="@+id/pickBatch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@+id/pickSku"
+        android:paddingBottom="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <TextView
+        android:id="@+id/pickQuantity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_below="@+id/pickBatch"
+        android:paddingBottom="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <Button
+        android:id="@+id/btnPicking"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_shape"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="fill_vertical"
+        android:text="@string/picking"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

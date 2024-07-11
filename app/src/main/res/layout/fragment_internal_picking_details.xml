@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlPutawaySuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/ivScanPalletImg"
+                android:layout_width="110dp"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/barcode_scan_img"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"/>
+
+            <TextView
+            android:id="@+id/lblScanAllPallets"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/scanPallet"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tvPicklist"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:text="To Location"
+                android:textStyle="normal" />
+
+            <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                android:id="@+id/spinnerSelectPickList"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/tvPicklist">
+
+            </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+            <TextView
+                android:id="@+id/lbl_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:visibility="visible"
+                android:text="Qty"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="right"/>
+            <CheckBox
+                android:id="@+id/cbmoreitems"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:text="More Batchs"
+                android:visibility="visible"/>
+
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/lblScanAllPallets"
+                android:layout_marginTop="5dp"
+                android:cacheColorHint="#00000000"
+                android:childDivider="@color/colorAccent"
+                android:divider="@color/colorAccent"
+                android:dividerHeight="1dp"
+                android:layout_weight="2"
+                android:fadeScrollbars="false"
+                android:scrollbarFadeDuration="0"/>
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:enabled="true"
+            android:layout_alignTop="@+id/btnPickComplete"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:elevation="30dp"
+            android:gravity="center"
+            android:text="Close"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_close_shape"
+            android:elevation="30dp"
+            android:visibility="gone"
+            android:foreground="@drawable/button_cross_close"
+            android:layout_centerHorizontal="true"
+            android:text="@string/putaway"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:foregroundGravity="center"
+            />
+        <Button
+            android:id="@+id/btnPickComplete"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:elevation="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="Pick Complete"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

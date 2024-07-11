@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlCCHeaderOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/tvSelectCycleCount"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:padding="7dp"
+            android:background="@color/ashblack"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/selectCC"
+            android:textStyle="bold" />
+
+        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+            android:id="@+id/spinnerSelectCycleCount"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvSelectCycleCount">
+
+        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+
+        <!--
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvScanSONumber"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="50dp"
+                    app:cardBackgroundColor="@color/skuColor"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/ivScanSONumber"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/fullscreen_img" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvscanSONumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cvScanSONumber"
+                    android:layout_centerHorizontal="true"
+                    android:text="Scan SO Number"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+        -->
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="145dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/button_shape"
+            android:elevation="30dp"
+            android:text="@string/go"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+        <!-- <Button
+             android:id="@+id/btnCloseOne"
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginBottom="12dp"
+             android:background="@drawable/button_close_shape"
+             android:elevation="30dp"
+             android:foreground="@drawable/button_cross_close"
+             android:foregroundGravity="center"
+             android:text="@string/putaway"
+             android:textAllCaps="false"
+             android:textColor="@color/white" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llPickingSugg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txt_cyclecount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Cycle Count"
+            android:gravity="left" />
+        <TextView
+            android:id="@+id/txt_cc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="CC Name"
+            android:gravity="left" />
+        <TextView
+            android:id="@+id/txt_blockedlocations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Blocked Locations"
+            android:gravity="left" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cycleCountRecyclerView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</RelativeLayout>

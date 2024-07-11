@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlStRefSelect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+        <TextView
+            android:id="@+id/tvSelectStRef"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="7dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@color/ashblack"
+            android:text="@string/selectStRef">
+
+        </TextView>
+
+        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+            android:id="@+id/spinnerSelectStRef"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp">
+
+        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+
+        <TextView
+            android:id="@+id/tvSelectVehcle"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="7dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/select_vehicle"
+            android:background="@color/ashblack"
+           >
+
+        </TextView>
+
+
+        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+            android:id="@+id/spinnerSelectVehicle"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/go"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <!--<Button
+            android:id="@+id/btnCancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_close_shape"
+            android:elevation="30dp"
+            android:foreground="@drawable/button_cross_close"
+            android:foregroundGravity="center"
+            android:text="@string/putaway"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />-->
+
+    </RelativeLayout>
+
+</RelativeLayout>
