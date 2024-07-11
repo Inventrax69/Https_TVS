@@ -26,13 +26,13 @@
             android:text="Select Transfer Pic Ref No."
             android:textStyle="normal" />
 
-        <com.inventrax.jungheinrich.gsk.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.gsk.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectPickList"
             style="@style/Base.Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="45dp"
 
-            android:layout_below="@+id/tvPicklist"></com.inventrax.jungheinrich.gsk.searchableSpinner.SearchableSpinner>
+            android:layout_below="@+id/tvPicklist"></com.inventrax.tvs.gsk.searchableSpinner.SearchableSpinner>
 
 
         <Button
@@ -776,7 +776,7 @@
             android:text="@string/selectResson"
             android:textStyle="normal" />
 
-        <com.inventrax.jungheinrich.gsk.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.gsk.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectReason"
             style="@style/Base.Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"

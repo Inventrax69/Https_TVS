@@ -1,6 +1,6 @@
 <resources>
     <!-- <string name="app_name">Falcon WMS</string>-->
-    <string name="app_name">Jungheinrich</string>
+    <string name="app_name">TVS</string>
     <!-- Navigation Drawer -->
 
     <string name="drawer_open">Open</string>

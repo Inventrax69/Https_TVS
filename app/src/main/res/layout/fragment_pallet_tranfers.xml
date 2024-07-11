@@ -36,14 +36,14 @@
 
         </TextView>
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectWarehouse"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_below="@+id/tvSelectWarehouse"
             android:layout_marginTop="10dp">
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
         <TextView
             android:id="@+id/tvSelectTenant"
@@ -60,7 +60,7 @@
 
         </TextView>
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectTenant"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -69,7 +69,7 @@
             android:layout_below="@+id/tvSelectTenant"
             >
 
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
 
         </LinearLayout>

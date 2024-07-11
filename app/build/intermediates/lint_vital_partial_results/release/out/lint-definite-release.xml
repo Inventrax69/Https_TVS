@@ -9,18 +9,18 @@
             file="$APP/src/main/res/layout/fragment_item_putaway.xml"
             line="75"
             column="13"
-            startOffset="2917"
+            startOffset="2872"
             endLine="75"
             endColumn="50"
-            endOffset="2954"/>
+            endOffset="2909"/>
         <location
             file="$APP/src/main/res/layout/fragment_item_putaway.xml"
             line="53"
             column="13"
-            startOffset="2043"
+            startOffset="2016"
             endLine="53"
             endColumn="50"
-            endOffset="2080"
+            endOffset="2053"
             message="Duplicate id `@+id/spinnerSelectTenant` originally defined here"/>
     </incident>
 

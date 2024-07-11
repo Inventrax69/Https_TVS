@@ -46,7 +46,7 @@
                 </TextView>
 
 
-                <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                <com.inventrax.tvs.searchableSpinner.SearchableSpinner
                     android:id="@+id/spinnerSelectWarehouse"
                     style="@style/Widget.AppCompat.Spinner.Underlined"
                     android:layout_width="match_parent"
@@ -55,7 +55,7 @@
                     android:layout_below="@+id/skubiqstrefs"
                     android:layout_marginTop="15dp">
 
-                </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+                </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
             </LinearLayout>
 
@@ -86,7 +86,7 @@
 
                 </TextView>
 
-                <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                <com.inventrax.tvs.searchableSpinner.SearchableSpinner
                     android:id="@+id/spinnerSelectTenant"
                     style="@style/Widget.AppCompat.Spinner.Underlined"
                     android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                     android:layout_below="@+id/imgselectvehicle"
                     android:layout_weight="1">
 
-                </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+                </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
             </LinearLayout>
 
 

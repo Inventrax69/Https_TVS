@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.inventrax.jungheinrich",
+  "applicationId": "com.inventrax.tvs",
   "variantName": "release",
   "elements": [
     {

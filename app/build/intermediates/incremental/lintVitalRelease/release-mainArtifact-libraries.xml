@@ -1,20 +1,20 @@
 <libraries>
   <library
-      name="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\BarcodeAPI_V1_1_14.jar:unspecified@jar"
-      jars="D:\Ganesh\https_jungheinrich\app\libs\BarcodeAPI_V1_1_14.jar"
-      resolved="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\BarcodeAPI_V1_1_14.jar:unspecified"/>
+      name="__local_aars__:D:\Ganesh\Https_TVS\app\libs\BarcodeAPI_V1_1_14.jar:unspecified@jar"
+      jars="D:\Ganesh\Https_TVS\app\libs\BarcodeAPI_V1_1_14.jar"
+      resolved="__local_aars__:D:\Ganesh\Https_TVS\app\libs\BarcodeAPI_V1_1_14.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\CWAC-WakefulIntentService.jar:unspecified@jar"
-      jars="D:\Ganesh\https_jungheinrich\app\libs\CWAC-WakefulIntentService.jar"
-      resolved="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\CWAC-WakefulIntentService.jar:unspecified"/>
+      name="__local_aars__:D:\Ganesh\Https_TVS\app\libs\CWAC-WakefulIntentService.jar:unspecified@jar"
+      jars="D:\Ganesh\Https_TVS\app\libs\CWAC-WakefulIntentService.jar"
+      resolved="__local_aars__:D:\Ganesh\Https_TVS\app\libs\CWAC-WakefulIntentService.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\DataCollection.jar:unspecified@jar"
-      jars="D:\Ganesh\https_jungheinrich\app\libs\DataCollection.jar"
-      resolved="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\DataCollection.jar:unspecified"/>
+      name="__local_aars__:D:\Ganesh\Https_TVS\app\libs\DataCollection.jar:unspecified@jar"
+      jars="D:\Ganesh\Https_TVS\app\libs\DataCollection.jar"
+      resolved="__local_aars__:D:\Ganesh\Https_TVS\app\libs\DataCollection.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\openbeans-1.0.jar:unspecified@jar"
-      jars="D:\Ganesh\https_jungheinrich\app\libs\openbeans-1.0.jar"
-      resolved="__local_aars__:D:\Ganesh\https_jungheinrich\app\libs\openbeans-1.0.jar:unspecified"/>
+      name="__local_aars__:D:\Ganesh\Https_TVS\app\libs\openbeans-1.0.jar:unspecified@jar"
+      jars="D:\Ganesh\Https_TVS\app\libs\openbeans-1.0.jar"
+      resolved="__local_aars__:D:\Ganesh\Https_TVS\app\libs\openbeans-1.0.jar:unspecified"/>
   <library
       name="androidx.constraintlayout:constraintlayout:1.1.3@aar"
       jars="C:\Users\ganesh.m\.gradle\caches\transforms-3\be8e016908a22bd469ff65345f2c1710\transformed\constraintlayout-1.1.3\jars\classes.jar"

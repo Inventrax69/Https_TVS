@@ -26,14 +26,14 @@
             android:text="Ref.Type"
             android:textStyle="normal" />
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectreftype"
             style="@style/Base.Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_below="@+id/tvrefType">
 
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
 
 

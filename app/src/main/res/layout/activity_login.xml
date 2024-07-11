@@ -31,7 +31,7 @@
 
         </TextView>
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectDivision"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="110dp"
@@ -41,7 +41,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true">
 
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
 
         <ImageView

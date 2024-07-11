@@ -28,14 +28,14 @@
             android:text="@string/selectCC"
             android:textStyle="bold" />
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectCycleCount"
             style="@style/Base.Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_below="@+id/tvSelectCycleCount">
 
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
         <!--
                 <androidx.cardview.widget.CardView

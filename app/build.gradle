@@ -8,11 +8,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.inventrax.jungheinrich"
+        applicationId "com.inventrax.tvs"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
-        versionName "S1.0.0"
+        versionName "T1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -21,7 +21,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('jungheinrich.jks')
+            storeFile file('tvs.jks')
             storePassword '123456'
             keyAlias 'key0'
             keyPassword '123456'

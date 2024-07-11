@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "D:\\Ganesh\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\9dad6789c6a70114174af89d48675dc7\\transformed\\jetified-zxing-android-embedded-3.4.0\\res\\values-he\\values-he.xml",

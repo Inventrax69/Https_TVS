@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.inventrax.jungheinrich",
+  "applicationId": "com.inventrax.tvs",
   "variantName": "debug",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "attributes": [],
       "versionCode": 1,
-      "versionName": "S1.0.0",
+      "versionName": "T1.0.0",
       "outputFile": "app-debug.apk"
     }
   ],

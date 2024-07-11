@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
+            "outputFile": "D:\\Ganesh\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\c276ba805f8fff0163482752fadfdd29\\transformed\\jetified-play-services-base-10.2.1\\res\\values-ka\\values.xml",

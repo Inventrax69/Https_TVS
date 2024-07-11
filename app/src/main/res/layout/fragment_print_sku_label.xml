@@ -269,14 +269,14 @@
                     android:textSize="10sp" />
 
 
-                <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+                <com.inventrax.tvs.searchableSpinner.SearchableSpinner
                     android:id="@+id/spinnerSelectPrinter"
                     style="@style/Widget.AppCompat.Spinner.Underlined"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1.5">
 
-                </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+                </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
             </LinearLayout>
             <LinearLayout
@@ -294,14 +294,14 @@
                     android:text="Label Type"
                     android:textSize="10sp" />
 
-            <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+            <com.inventrax.tvs.searchableSpinner.SearchableSpinner
                 android:id="@+id/etLabelType"
                 style="@style/Widget.AppCompat.Spinner.Underlined"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1.5">
 
-            </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+            </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
             </LinearLayout>
 
         </LinearLayout>

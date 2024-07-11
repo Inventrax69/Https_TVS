@@ -25,13 +25,13 @@
             android:layout_marginTop="15dp"
             android:textStyle="normal"/>
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectJobOrder"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             style="@style/Base.Widget.AppCompat.Spinner.Underlined"
             android:layout_below="@+id/tvSelectJobOrder">
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"

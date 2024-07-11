@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Ganesh\\https_jungheinrich\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\Ganesh\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\c222793cb3120e0af872acdb8bb0836a\\transformed\\material-1.0.0\\res\\values-v21\\values-v21.xml",
@@ -20,25 +20,6 @@
                         "endLines": "302,310,318,326",
                         "endColumns": "10,10,10,10",
                         "endOffsets": "21792,22218,22641,23076"
-                    }
-                },
-                {
-                    "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "59",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "399"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "958",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1293"
                     }
                 },
                 {
@@ -99,7 +80,26 @@
                     }
                 },
                 {
-                    "source": "D:\\Ganesh\\https_jungheinrich\\app\\src\\main\\res\\values-v21\\strings.xml",
+                    "source": "D:\\Ganesh\\Https_TVS\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "399"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "958",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1293"
+                    }
+                },
+                {
+                    "source": "D:\\Ganesh\\Https_TVS\\app\\src\\main\\res\\values-v21\\strings.xml",
                     "from": {
                         "startLines": "11,8,5,6,4,10,7,3,2,9",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

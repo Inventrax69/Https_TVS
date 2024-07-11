@@ -1,7 +1,7 @@
 <variant
     name="release"
     useSupportLibraryVectorDrawables="true"
-    package="com.inventrax.jungheinrich"
+    package="com.inventrax.tvs"
     minSdkVersion="21"
     targetSdkVersion="33"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
@@ -26,7 +26,7 @@
   </testSourceProviders>
   <mainArtifact
       classOutputs="build\intermediates\javac\release\classes;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
-      applicationId="com.inventrax.jungheinrich"
+      applicationId="com.inventrax.tvs"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\aidl_source_output_dir\release\out;build\generated\source\buildConfig\release;build\generated\renderscript_source_output_dir\release\out"
       generatedResourceFolders="build\generated\res\rs\release;build\generated\res\resValues\release">
   </mainArtifact>

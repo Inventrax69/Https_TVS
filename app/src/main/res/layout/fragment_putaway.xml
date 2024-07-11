@@ -27,7 +27,7 @@
 
         </TextView>
 
-        <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectStRef"
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="35dp">
 
-        </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+        </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
         <Button
             android:id="@+id/btnGo"
@@ -888,7 +888,7 @@
             android:layout_marginTop="15dp"
             android:textStyle="normal"/>
 
-        <com.inventrax.jungheinrich.gsk.searchableSpinner.SearchableSpinner
+        <com.inventrax.tvs.gsk.searchableSpinner.SearchableSpinner
             android:id="@+id/spinnerSelectReason"
             android:layout_width="match_parent"
             android:layout_height="45dp"

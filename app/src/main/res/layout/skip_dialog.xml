@@ -17,7 +17,7 @@
         android:text="Select the reason" />
 
 
-    <com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner
+    <com.inventrax.tvs.searchableSpinner.SearchableSpinner
         android:id="@+id/spinnerSelectReason"
         style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true">
 
-    </com.inventrax.jungheinrich.searchableSpinner.SearchableSpinner>
+    </com.inventrax.tvs.searchableSpinner.SearchableSpinner>
 
     <TextView
         android:id="@+id/btnOk"
