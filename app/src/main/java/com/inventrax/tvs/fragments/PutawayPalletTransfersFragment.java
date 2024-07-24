@@ -318,10 +318,10 @@ public class PutawayPalletTransfersFragment extends Fragment implements View.OnC
 
     private void Clearfields() {
 
-        cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanFromCont.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanLocation.setImageResource(R.drawable.fullscreen_img);
 
         isPalletScaned = false;
@@ -357,7 +357,18 @@ public class PutawayPalletTransfersFragment extends Fragment implements View.OnC
             if (!ProgressDialogUtils.isProgressActive()) {
 
                 if(!isPalletScaned){
-                    ValidatePallet(scannedData);
+                    try {
+
+
+                    String[] parts = scannedData.split(",");
+
+                    String palletNumber = parts[0];
+                        ValidatePallet(palletNumber);
+                    }catch (Exception e){
+                        common.showUserDefinedAlertType(e.toString(), getActivity(), getContext(), "Error");
+
+                    }
+
                 }else{
                     if (sug_loc.getText().toString().equalsIgnoreCase(scannedData)) {
                         txtLocation.setText(scannedData);
@@ -1143,7 +1154,7 @@ public class PutawayPalletTransfersFragment extends Fragment implements View.OnC
                                         txtFromPallet.setText(scannedData);
                                         cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.white));
                                         ivScanFromCont.setImageResource(R.drawable.check);
-                                        GetActiveStockData();
+                                        GeneratePutawaySuggestion_TVS();
                                     }else{
                                         txtLocation.setText(scannedData);
                                         cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.white));
@@ -1490,7 +1501,7 @@ public class PutawayPalletTransfersFragment extends Fragment implements View.OnC
         }
     }
 
-    public void GetActiveStockData() {
+    public void GeneratePutawaySuggestion_TVS() {
 
         try {
 
@@ -1525,7 +1536,7 @@ public class PutawayPalletTransfersFragment extends Fragment implements View.OnC
                 // if (NetworkUtils.isInternetAvailable()) {
                 // Calling the Interface method
                 ProgressDialogUtils.showProgressDialog("Please Wait");
-                call = apiService.GetActivestock(message);
+                call = apiService.GeneratePutawaySuggestion_TVS(message);
                 // } else {
                 // DialogUtils.showAlertDialog(getActivity(), "Please enable internet");
                 // return;

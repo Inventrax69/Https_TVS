@@ -66,7 +66,7 @@ public class ProgressDialogUtils {
     public static void showProgressDialog(String message)
     {
 
-        setProgressActive(true);
+         setProgressActive(true);
         if (progressDialog != null && !progressDialog.isShowing()) {
             progressDialog.setMessage(message);
             progressDialog.show();

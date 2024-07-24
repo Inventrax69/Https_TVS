@@ -154,7 +154,7 @@ public class HomeFragment extends androidx.fragment.app.Fragment  {
         switch (menuChildText) {
 
             case "Receiving": {
-                FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, new UnloadingFragment());
+                FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, new PalletReceivingFragment());
             }
             break;
 

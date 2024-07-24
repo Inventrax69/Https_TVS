@@ -1141,7 +1141,7 @@ public class CcDetailsFragment extends Fragment implements View.OnClickListener,
 
                                     if (lstDto.get(i).getResult().equals("Confirmed successfully")) {
                                         common.showUserDefinedAlertType(errorMessages.EMC_101, getActivity(), getContext(), "Success");
-                                        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                                        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.black));
                                         ivScanSKU.setImageResource(R.drawable.fullscreen_img);
 
                                         materialCode = "";
@@ -1487,10 +1487,10 @@ public class CcDetailsFragment extends Fragment implements View.OnClickListener,
         ProgressDialogUtils.closeProgressDialog();
         common.setIsPopupActive(false);
 
-        cvScanContainer.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanContainer.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanContainer.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.black));
         ivScanSKU.setImageResource(R.drawable.fullscreen_img);
         ormpartnumber.setText("");
         lblScannedSku.setText("");
@@ -1524,13 +1524,13 @@ public class CcDetailsFragment extends Fragment implements View.OnClickListener,
         ProgressDialogUtils.closeProgressDialog();
         common.setIsPopupActive(false);
 
-        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanLocation.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanContainer.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanContainer.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanContainer.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.black));
         ivScanSKU.setImageResource(R.drawable.fullscreen_img);
 
         lblScannedSku.setText("");
@@ -2062,7 +2062,7 @@ public class CcDetailsFragment extends Fragment implements View.OnClickListener,
                                 owmsExceptionMessage = new WMSExceptionMessage(_lExceptions.get(i).entrySet());
                             }
                             isRSNScanned = false;
-                            cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                            cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.black));
                             ivScanSKU.setImageResource(R.drawable.fullscreen_img);
                             ProgressDialogUtils.closeProgressDialog();
                             common.showAlertType(owmsExceptionMessage, getActivity(), getContext());
@@ -2084,7 +2084,7 @@ public class CcDetailsFragment extends Fragment implements View.OnClickListener,
                                     0 Sku|1 BatchNo|2 SerialNO|3 KitId|4 lineNo  ---- For SKU with 5 MSP's   *//*
                                     // Eg. : ToyCar|1|bat1|ser123|12/2/2018|12/2/2019|0|001*/
 
-                                    cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                                    cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.black));
                                     ivScanSKU.setImageResource(R.drawable.fullscreen_img);
 
                                     /*    if (scannedData.split("[|]").length != 5) {*/

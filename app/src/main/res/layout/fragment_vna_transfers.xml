@@ -171,7 +171,7 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_centerHorizontal="true"
-                    app:cardBackgroundColor="@color/palletColor"
+                    app:cardBackgroundColor="@color/secondarycolor"
                     app:cardCornerRadius="22.5dp"
                     app:cardElevation="0dp">
 
@@ -212,7 +212,7 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_centerHorizontal="true"
-                    app:cardBackgroundColor="@color/locationColor"
+                    app:cardBackgroundColor="@color/primarycolor"
                     app:cardCornerRadius="22.5dp"
                     app:cardElevation="0dp">
 
@@ -392,7 +392,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginEnd="10dp"
             android:layout_above="@+id/btnSkip"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/button_clear"
             android:text="Stop Suggest"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -408,7 +408,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
             android:layout_above="@+id/btnCloseLoadPallet"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/button_clear"
             android:text="@string/clear"
             android:textAllCaps="false"
             android:textColor="@color/white"

@@ -394,19 +394,19 @@ public class InnerTransferFragment extends Fragment implements View.OnClickListe
 
     private void Clearfields() {
 
-        cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanFromCont.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanToCont.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanToCont.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanToCont.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanFromLoc.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanFromLoc.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanFromLoc.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanToLoc.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanToLoc.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanToLoc.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+        cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.black));
         ivScanSku.setImageResource(R.drawable.fullscreen_img);
 
         etLocationTo.setText("");
@@ -701,7 +701,7 @@ public class InnerTransferFragment extends Fragment implements View.OnClickListe
                                 owmsExceptionMessage = new WMSExceptionMessage(_lExceptions.get(i).entrySet());
                             }
 
-                            cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                            cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.black));
                             ivScanSku.setImageResource(R.drawable.fullscreen_img);
                             ProgressDialogUtils.closeProgressDialog();
                             common.showAlertType(owmsExceptionMessage, getActivity(), getContext());
@@ -725,7 +725,7 @@ public class InnerTransferFragment extends Fragment implements View.OnClickListe
                                     // Eg. : ToyCar|1|bat1|ser123|12/2/2018|12/2/2019|0|001*/
 
 
-                                    cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                                    cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.black));
                                     ivScanSku.setImageResource(R.drawable.fullscreen_img);
 
                                     /*    if (scannedData.split("[|]").length != 5) {*/
@@ -1885,16 +1885,16 @@ public class InnerTransferFragment extends Fragment implements View.OnClickListe
 
                                             // From location is not cleared here as per requirement
 
-                                            cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                                            cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.black));
                                             ivScanSku.setImageResource(R.drawable.fullscreen_img);
 
-                                            cvScanToCont.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+                                            cvScanToCont.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
                                             ivScanToCont.setImageResource(R.drawable.fullscreen_img);
 
-                                            cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+                                            cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
                                             ivScanFromCont.setImageResource(R.drawable.fullscreen_img);
 
-                                            cvScanToLoc.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+                                            cvScanToLoc.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
                                             ivScanToLoc.setImageResource(R.drawable.fullscreen_img);
 
                                             etLocationTo.setText("");

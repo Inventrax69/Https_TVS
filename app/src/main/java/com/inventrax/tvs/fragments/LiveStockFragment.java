@@ -550,13 +550,13 @@ public class LiveStockFragment extends Fragment implements View.OnClickListener,
 
     public void clearFields() {
 
-        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanLocation.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanPallet.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+        cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.black));
         ivScanRSN.setImageResource(R.drawable.fullscreen_img);
 
 
@@ -913,7 +913,7 @@ public class LiveStockFragment extends Fragment implements View.OnClickListener,
                                 owmsExceptionMessage = new WMSExceptionMessage(_lExceptions.get(i).entrySet());
                             }
                             scannedSKU = "";
-                            cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                            cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.black));
                             ivScanRSN.setImageResource(R.drawable.fullscreen_img);
                             ProgressDialogUtils.closeProgressDialog();
                             common.showAlertType(owmsExceptionMessage, getActivity(), getContext());
@@ -933,7 +933,7 @@ public class LiveStockFragment extends Fragment implements View.OnClickListener,
                                     0 Sku|1 BatchNo|2 SerialNO|3 KitId|4 lineNo  ---- For SKU with 5 MSP's   *//*
                                     // Eg. : ToyCar|1|bat1|ser123|12/2/2018|12/2/2019|0|001*/
 
-                                    cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                                    cvScanRSN.setCardBackgroundColor(getResources().getColor(R.color.black));
                                     ivScanRSN.setImageResource(R.drawable.fullscreen_img);
 
                                     /*    if (scannedData.split("[|]").length != 5) {*/

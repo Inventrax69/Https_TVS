@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.inventrax.jungheinrich"
+    package="com.inventrax.tvs"
     android:versionCode="1"
-    android:versionName="S1.0.0" >
+    android:versionName="T1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -40,7 +40,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <permission
-        android:name="com.inventrax.jungheinrich.permission.C2D_MESSAGE"
+        android:name="com.inventrax.tvs.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.inventrax.falconsl.permission.C2D_MESSAGE" />
@@ -89,7 +89,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name="com.inventrax.jungheinrich.application.AppController"
+        android:name="com.inventrax.tvs.application.AppController"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:hardwareAccelerated="false"
@@ -101,7 +101,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.inventrax.jungheinrich.activities.LoginActivity"
+            android:name="com.inventrax.tvs.activities.LoginActivity"
             android:exported="true"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
@@ -113,7 +113,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.inventrax.jungheinrich.activities.MainActivity"
+            android:name="com.inventrax.tvs.activities.MainActivity"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -121,13 +121,13 @@
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name="com.inventrax.jungheinrich.activities.SettingsActivity"
+            android:name="com.inventrax.tvs.activities.SettingsActivity"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="Settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.inventrax.jungheinrich.activities.CaptureActivityPortrait"
+            android:name="com.inventrax.tvs.activities.CaptureActivityPortrait"
             android:exported="false"
             android:screenOrientation="portrait"
             android:stateNotNeeded="true"
@@ -162,7 +162,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.inventrax.jungheinrich.provider"
+            android:authorities="com.inventrax.tvs.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -207,7 +207,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.inventrax.jungheinrich.androidx-startup"
+            android:authorities="com.inventrax.tvs.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"

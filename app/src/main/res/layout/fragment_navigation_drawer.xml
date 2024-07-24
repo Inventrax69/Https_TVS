@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clickable="true"
-    android:background="@color/colorAccent">
+    android:background="@color/backgroundcolor">
 
     <RelativeLayout
         android:id="@+id/nav_header_container"
@@ -40,7 +40,7 @@
             android:layout_marginStart="70dp"
             android:text="@string/username"
             android:textAlignment="center"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                 android:id="@+id/txtHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:text="Home"
                 android:textStyle="bold"

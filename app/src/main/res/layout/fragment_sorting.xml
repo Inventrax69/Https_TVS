@@ -673,7 +673,7 @@
                 android:layout_weight="1"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_shape"
+                android:background="@drawable/button_clear"
                 android:elevation="30dp"
                 android:text="Clear"
                 android:textAllCaps="false"

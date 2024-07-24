@@ -204,7 +204,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/palletColor"
+                        app:cardBackgroundColor="@color/primarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -237,19 +237,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.5"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="2dp"
                 android:orientation="horizontal"
-                android:padding="5dp"
+                android:padding="2dp"
                 android:weightSum="2">
 
 
                 <TextView
                     android:id="@+id/txtFromPallet"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:textColor="@color/black"
                     android:textSize="14sp"
@@ -293,7 +291,7 @@
                         android:layout_weight="1"
                         android:text="Batch"
                         android:textColor="@color/black"
-                        android:visibility="gone"
+                        android:visibility="visible"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         />
@@ -375,7 +373,7 @@
                         android:layout_height="40dp"
 
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/locationColor"
+                        app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -434,9 +432,9 @@
             <Button
                 android:id="@+id/btn_clear"
                 android:layout_width="0dp"
-                android:layout_height="35dp"
+                android:layout_height="45dp"
                 android:layout_weight="1.3"
-                android:background="@drawable/button_shape"
+                android:background="@drawable/button_clear"
                 android:elevation="30dp"
                 android:text="@string/clear"
                 android:textAllCaps="false"
@@ -470,7 +468,7 @@
             <Button
                 android:id="@+id/btnBinComplete"
                 android:layout_width="0dp"
-                android:layout_height="35dp"
+                android:layout_height="45dp"
                 android:layout_weight="1.3"
                 android:background="@drawable/button_shape"
                 android:elevation="30dp"

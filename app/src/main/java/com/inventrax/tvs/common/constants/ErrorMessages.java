@@ -181,5 +181,7 @@ public class ErrorMessages {
     public String EMC_100 = " Error while getting data";
     public String EMC_101 = " Confirmed successfully";
 
+    public String EMC_102 = " Successfully received";
+
 
 }

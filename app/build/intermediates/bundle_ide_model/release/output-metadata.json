@@ -4,14 +4,14 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.inventrax.jungheinrich",
+  "applicationId": "com.inventrax.tvs",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../../../release/release/app-release.aab"
+      "outputFile": "../../../../release/app-release.aab"
     }
   ],
   "elementType": "File"

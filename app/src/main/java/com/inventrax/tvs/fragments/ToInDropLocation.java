@@ -220,9 +220,9 @@ public class ToInDropLocation extends Fragment implements View.OnClickListener, 
         ProgressDialogUtils.closeProgressDialog();
         Common.setIsPopupActive(false);
 
-        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanPallet.setImageResource(R.drawable.fullscreen_img);
-        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanToLocation.setImageResource(R.drawable.fullscreen_img);
         etPallet.setText("");
         txtLoction.setText("");

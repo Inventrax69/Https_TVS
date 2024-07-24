@@ -370,4 +370,11 @@ public interface ApiInterface {
     @POST("VNA/VNAPutawaySkip")
     Call<String> VNAPutawaySkip(@Body WMSCoreMessage oRequest);
 
+
+    @POST("Inbound/WorkOrderReceiving")
+    Call<String> WorkOrderReceiving(@Body WMSCoreMessage oRequest);
+
+    @POST("HouseKeeping/GeneratePutawaySuggestion_TVS")
+    Call<String> GeneratePutawaySuggestion_TVS(@Body WMSCoreMessage oRequest);
+
 }

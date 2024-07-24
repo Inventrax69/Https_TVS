@@ -55,6 +55,8 @@ import com.inventrax.tvs.fragments.OutboundRevertDetailsFragment;
 import com.inventrax.tvs.fragments.OutboundRevertHeaderFragment;
 import com.inventrax.tvs.fragments.PackingFragment;
 import com.inventrax.tvs.fragments.PackingInfoFragment;
+import com.inventrax.tvs.fragments.PalletPickingFragment;
+import com.inventrax.tvs.fragments.PalletReceivingFragment;
 import com.inventrax.tvs.fragments.PalletTransfersFragment;
 import com.inventrax.tvs.fragments.PalletizationFragment;
 import com.inventrax.tvs.fragments.PickingDetailsFragment;
@@ -316,6 +318,12 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
                     ((ToInDropLocation) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
                 }
 
+                if (fragment != null && fragment.isVisible() && fragment instanceof PalletReceivingFragment) {
+                    ((PalletReceivingFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
+                }
+                if (fragment != null && fragment.isVisible() && fragment instanceof PalletPickingFragment) {
+                    ((PalletPickingFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
+                }
             }
         }
 

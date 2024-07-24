@@ -388,13 +388,13 @@ public class StockTakeFragment extends Fragment implements View.OnClickListener,
 
         db.deleteAll();
 
-        cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+        cvScanSku.setCardBackgroundColor(getResources().getColor(R.color.black));
         ivScanSku.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanPallet.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanDock.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanDock.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanDock.setImageResource(R.drawable.fullscreen_img);
 
         etBin.setText("");

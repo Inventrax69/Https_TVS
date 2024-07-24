@@ -300,7 +300,7 @@
             android:layout_marginStart="20dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/button_clear"
             android:elevation="30dp"
             android:text="Clear"
             android:visibility="invisible"

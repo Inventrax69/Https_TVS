@@ -546,7 +546,7 @@
                     android:layout_width="0dp"
                     android:layout_height="35dp"
                     android:layout_weight="1.3"
-                    android:background="@drawable/button_shape"
+                    android:background="@drawable/button_clear"
                     android:elevation="30dp"
                     android:text="@string/clear"
                     android:textAllCaps="false"

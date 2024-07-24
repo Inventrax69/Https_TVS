@@ -285,9 +285,9 @@ public class GskPickingHeaderFragment extends Fragment implements View.OnClickLi
         Bundle bundle = new Bundle();
         bundle.putString("pickOBDno", pickRefNo);
         bundle.putString("pickobdId", pickobdId);
-        GskPickingDetailsFragment gskPickingDetailsFragment = new GskPickingDetailsFragment();
-        gskPickingDetailsFragment.setArguments(bundle);
-        FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, gskPickingDetailsFragment);
+        PalletPickingFragment palletPickingFragment = new PalletPickingFragment();
+        palletPickingFragment.setArguments(bundle);
+        FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, palletPickingFragment);
     }
 
     public void ValidateSO(final String scannedData) {

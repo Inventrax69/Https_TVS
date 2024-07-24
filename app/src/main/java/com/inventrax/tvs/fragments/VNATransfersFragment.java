@@ -291,9 +291,9 @@ public class VNATransfersFragment extends Fragment implements View.OnClickListen
         txtPenPallet.setText("");
         cvScanFromLocation.setCardBackgroundColor(getResources().getColor(R.color.white));
         ivScanFromLocation.setImageResource(R.drawable.check);
-        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanPallet.setImageResource(R.drawable.fullscreen_img);
-        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanToLocation.setImageResource(R.drawable.fullscreen_img);
     }
 
@@ -308,9 +308,9 @@ public class VNATransfersFragment extends Fragment implements View.OnClickListen
         txtVLPDNumber.setVisibility(View.INVISIBLE);
         cvScanFromLocation.setCardBackgroundColor(getResources().getColor(R.color.white));
         ivScanFromLocation.setImageResource(R.drawable.check);
-        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanPallet.setImageResource(R.drawable.fullscreen_img);
-        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.locationColor));
+        cvScanToLocation.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanToLocation.setImageResource(R.drawable.fullscreen_img);
         etToLocation.setText("");
         etFromLocation.setText("");

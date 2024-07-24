@@ -147,7 +147,7 @@
                         android:layout_height="40dp"
                         android:layout_alignTop="@+id/cvScanLocation"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/locationColor"
+                        app:cardBackgroundColor="@color/primarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -184,7 +184,7 @@
                         android:layout_height="40dp"
                         android:layout_alignTop="@+id/cvScanLocation"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/palletColor"
+                        app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -227,7 +227,7 @@
                         android:layout_height="40dp"
                         android:layout_alignTop="@+id/cvScanLocation"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/skuColor"
+                        app:cardBackgroundColor="@color/black"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -277,7 +277,7 @@
                         android:layout_height="40dp"
                         android:layout_alignTop="@+id/cvScanLocation"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/locationColor"
+                        app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -317,7 +317,7 @@
                         android:layout_height="40dp"
                         android:layout_alignTop="@+id/cvScanLocation"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/palletColor"
+                        app:cardBackgroundColor="@color/primarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -721,7 +721,7 @@
             android:layout_alignTop="@+id/btnBinComplete"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/button_clear"
             android:elevation="30dp"
             android:enabled="true"
             android:gravity="center"

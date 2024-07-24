@@ -408,7 +408,7 @@ public class MaterialTransferFragment extends Fragment implements View.OnClickLi
 
     private void Clearfields1() {
 
-        cvScanSku.setCardBackgroundColor(getResources().getColor(color.skuColor));
+        cvScanSku.setCardBackgroundColor(getResources().getColor(color.black));
         ivScanSku.setImageResource(drawable.fullscreen_img);
 
         etSku.setText("");
@@ -437,13 +437,13 @@ public class MaterialTransferFragment extends Fragment implements View.OnClickLi
     }
     private void Clearfields() {
 
-        cvScanFromCont.setCardBackgroundColor(getResources().getColor(color.palletColor));
+        cvScanFromCont.setCardBackgroundColor(getResources().getColor(color.secondarycolor));
         ivScanFromCont.setImageResource(drawable.fullscreen_img);
 
-        cvScanFromLoc.setCardBackgroundColor(getResources().getColor(color.locationColor));
+        cvScanFromLoc.setCardBackgroundColor(getResources().getColor(color.primarycolor));
         ivScanFromLoc.setImageResource(drawable.fullscreen_img);
 
-        cvScanSku.setCardBackgroundColor(getResources().getColor(color.skuColor));
+        cvScanSku.setCardBackgroundColor(getResources().getColor(color.black));
         ivScanSku.setImageResource(drawable.fullscreen_img);
 
         etLocation.setText("");
@@ -571,7 +571,7 @@ public class MaterialTransferFragment extends Fragment implements View.OnClickLi
                                 owmsExceptionMessage = new WMSExceptionMessage(_lExceptions.get(i).entrySet());
                             }
 
-                            cvScanSku.setCardBackgroundColor(getResources().getColor(color.skuColor));
+                            cvScanSku.setCardBackgroundColor(getResources().getColor(color.secondarycolor));
                             ivScanSku.setImageResource(drawable.fullscreen_img);
                             lstInventryList=new ArrayList<>();
                             FromQty="";
@@ -587,7 +587,7 @@ public class MaterialTransferFragment extends Fragment implements View.OnClickLi
                             ProgressDialogUtils.closeProgressDialog();
                             if (scanDTO1 != null) {
                                 if (scanDTO1.getScanResult()) {
-                                    cvScanSku.setCardBackgroundColor(getResources().getColor(color.skuColor));
+                                    cvScanSku.setCardBackgroundColor(getResources().getColor(color.secondarycolor));
                                     ivScanSku.setImageResource(drawable.fullscreen_img);
                                     Materialcode = scanDTO1.getSkuCode();
                                     lblBatchNo.setText(scanDTO1.getBatch());

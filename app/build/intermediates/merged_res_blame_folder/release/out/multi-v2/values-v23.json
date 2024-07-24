@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Ganesh\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\812d8de173c4c2fe80fced9ba549a2e9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Nagendra.b\\.gradle\\caches\\transforms-3\\812d8de173c4c2fe80fced9ba549a2e9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\0bfee36ed7ec3f9fb6fd6cb2ba9f5b01\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Nagendra.b\\.gradle\\caches\\transforms-3\\1d2f6dac9fc2a4dac77f2b3f82bea1fa\\transformed\\work-runtime-2.7.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Nagendra.b\\.gradle\\caches\\transforms-3\\0bfee36ed7ec3f9fb6fd6cb2ba9f5b01\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -39,16 +49,6 @@
                         "endLines": "4,5,6,7,20,33,34,35,36,37,38",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "314,449,524,611,1401,2203,2330,2435,2550,2657,2770"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\1d2f6dac9fc2a4dac77f2b3f82bea1fa\\transformed\\work-runtime-2.7.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
                     }
                 }
             ]

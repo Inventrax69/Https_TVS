@@ -156,7 +156,7 @@
                         android:id="@+id/cvScanLocation"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        app:cardBackgroundColor="@color/locationColor"
+                        app:cardBackgroundColor="@color/primarycolor"
                         app:cardCornerRadius="25dp"
                         app:cardElevation="0dp">
 
@@ -190,7 +190,7 @@
                         android:id="@+id/cvScanContainer"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        app:cardBackgroundColor="@color/palletColor"
+                        app:cardBackgroundColor="@color/secondarycolor"
                         app:cardCornerRadius="25dp"
                         app:cardElevation="0dp">
 
@@ -226,7 +226,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_below="@+id/rlccViewOne"
-                        app:cardBackgroundColor="@color/skuColor"
+                        app:cardBackgroundColor="@color/black"
                         app:cardCornerRadius="25dp"
                         app:cardElevation="0dp">
 
@@ -626,7 +626,7 @@
                     android:layout_width="0dp"
                     android:layout_height="35dp"
                     android:layout_weight="0.9"
-                    android:background="@drawable/button_shape"
+                    android:background="@drawable/button_clear"
                     android:elevation="30dp"
                     android:text="@string/clear"
                     android:textAllCaps="false"

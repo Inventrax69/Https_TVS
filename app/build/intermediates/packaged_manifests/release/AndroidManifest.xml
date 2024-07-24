@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.inventrax.tvs"
     android:versionCode="1"
-    android:versionName="S1.0.0" >
+    android:versionName="T1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="21"

@@ -30,6 +30,13 @@
     <color name="grey">#A4A4A4</color>
 
     <color name="ashblack">#E9E9E9</color>
+    <color name="primarycolor">#1E3583</color>
+    <color name="secondarycolor"> #C51D28</color>
+    <color name="ash_color"> #90928E</color>
+    <color name="backgroundcolor"> #E7E8EC</color>
+    <color name="clear_color">#2D2D2D</color>
+
+
     <!-- Application Main Outlook Colors -->
 
 

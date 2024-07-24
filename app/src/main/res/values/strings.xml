@@ -59,7 +59,7 @@
     <string name="suggestedQty">Sug. Qty </string>
     <string name="inbRec">INB Rec. </string>
     <string name="btnSkip">Skip</string>
-    <string name="transferComplete">Transfer Complete</string>
+    <string name="transferComplete">Transfer</string>
     <!--    <mhe></mhe>-->
     <string name="btnNext">Next</string>
 
@@ -317,5 +317,13 @@
     <string name="quantity_should_not_0">"Quantity should not 0 "</string>
     <string name="please_enter_quantity_before_proceeding">Please enter quantity before proceeding</string>
     <string name="please_scan_sku">Please scan SKU</string>
+    <string name="workorder_number">Workorder No. :</string>
+    <string name="Pallet_number">Pallet No. :</string>
+    <string name="case_list">Case List :</string>
+
+    <string name="sug_pallet">Suggested Pallet :</string>
+    <string name="sug_loc">Suggested Location :</string>
+
+
 
 </resources>

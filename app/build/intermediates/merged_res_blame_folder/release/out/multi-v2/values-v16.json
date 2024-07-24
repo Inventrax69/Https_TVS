@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Ganesh\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\0bfee36ed7ec3f9fb6fd6cb2ba9f5b01\\transformed\\appcompat-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Nagendra.b\\.gradle\\caches\\transforms-3\\79a52932fe3e20aca63757741e2cc2d4\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Nagendra.b\\.gradle\\caches\\transforms-3\\0bfee36ed7ec3f9fb6fd6cb2ba9f5b01\\transformed\\appcompat-1.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ganesh.m\\.gradle\\caches\\transforms-3\\79a52932fe3e20aca63757741e2cc2d4\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

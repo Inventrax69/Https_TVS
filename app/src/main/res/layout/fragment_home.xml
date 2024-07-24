@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ashblack"
+    android:background="@color/white"
     tools:ignore="NestedWeights,UseCompoundDrawables">
 
     <ImageView
         android:id="@+id/ivMainImage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="15dp"
@@ -20,7 +20,7 @@
         android:adjustViewBounds="true"
         android:padding="10dp"
         android:scaleType="fitXY"
-        android:src="@drawable/falconwms_r" />
+        android:src="@drawable/tvs" />
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -30,7 +30,8 @@
         android:layout_height="match_parent"
         android:horizontalSpacing="6dp"
         android:numColumns="2"
-        android:background="@color/ashblack"
+        android:padding="5dp"
+        android:background="@color/backgroundcolor"
         android:verticalSpacing="6dp" />
 
 </RelativeLayout>

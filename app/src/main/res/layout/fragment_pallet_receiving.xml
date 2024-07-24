@@ -120,16 +120,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginRight="5dp"
+        android:background="@color/backgroundcolor"
         android:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:layout_marginBottom="10dp"
+
+
             android:orientation="vertical"
             android:weightSum="9">
 
@@ -139,6 +137,7 @@
                 android:layout_weight="0.5"
                 android:orientation="horizontal"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:weightSum="3">
 
 
@@ -184,8 +183,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="1dp"
+                android:layout_margin="20dp"
+               android:background="@color/white"
                 android:gravity="center"
                 android:orientation="horizontal"
                 android:visibility="visible"
@@ -204,7 +203,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_centerHorizontal="true"
-                        app:cardBackgroundColor="@color/palletColor"
+                        app:cardBackgroundColor="@color/primarycolor"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -235,17 +234,30 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.5"
+                android:layout_weight="1.2"
                 android:orientation="horizontal"
-                android:weightSum="1">
+                android:background="@color/white"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/pallet_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.2"
+                    android:layout_gravity="center"
+                    android:text="@string/Pallet_number"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
                 <TextView
                     android:id="@+id/textpallet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:textColor="@color/black"
+                    android:layout_weight="0.8"
+                    android:gravity="left"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -255,11 +267,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.5"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+
                 android:orientation="horizontal"
                 android:weightSum="2">
 
@@ -269,7 +279,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.2"
-                    android:text="WorkorderNumber :"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/workorder_number"
+                    android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -278,6 +290,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
+                    android:layout_gravity="center"
                     android:gravity="left"
                     android:textColor="@color/colorAccent"
                     android:textSize="12sp"
@@ -289,10 +302,11 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:layout_height="0dp"
+                android:layout_weight="4.3"
                 android:orientation="vertical"
-                android:weightSum="2"
+                android:weightSum="2.1"
+                android:background="@color/white"
                 android:padding="5dp">
 
 
@@ -303,10 +317,11 @@
                     android:weightSum="1">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Case List :"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/case_list"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -314,21 +329,55 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.8"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:layout_weight="0.1"
+                    android:weightSum="1">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:background="@color/backgroundcolor"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/white"
+                    android:layout_weight="1.7"
                     >
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/case_list"
+
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:fadeScrollbars="false"
                         android:scrollbars="vertical">
 
                     </androidx.recyclerview.widget.RecyclerView>
 
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:layout_weight="0.1"
+                    android:weightSum="1">
 
+                    <View
+                        android:layout_width="0dp"
+                        android:background="@color/backgroundcolor"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:layout_weight="1"/>
+                </LinearLayout>
             </LinearLayout>
 
 
@@ -338,6 +387,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_weight="0.5"
+                android:background="@color/white"
+
                 android:layout_alignParentBottom="true"
                 android:weightSum="3.2">
 
@@ -350,9 +401,9 @@
                 <Button
                     android:id="@+id/btn_clear"
                     android:layout_width="0dp"
-                    android:layout_height="35dp"
+                    android:layout_height="45dp"
                     android:layout_weight="1.3"
-                    android:background="@drawable/button_shape"
+                    android:background="@drawable/button_clear"
                     android:elevation="30dp"
                     android:text="@string/clear"
                     android:textAllCaps="false"
@@ -386,7 +437,7 @@
                 <Button
                     android:id="@+id/btnBinComplete"
                     android:layout_width="0dp"
-                    android:layout_height="35dp"
+                    android:layout_height="45dp"
                     android:layout_weight="1.3"
                     android:background="@drawable/button_shape"
                     android:elevation="30dp"

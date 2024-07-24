@@ -294,10 +294,10 @@ public class ItemPutawayFragment extends Fragment implements View.OnClickListene
 
     private void Clearfields() {
 
-        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
         ivScanSKU.setImageResource(R.drawable.fullscreen_img);
 
-        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.palletColor));
+        cvScanLocation.setCardBackgroundColor(getResources().getColor(R.color.secondarycolor));
         ivScanLocation.setImageResource(R.drawable.fullscreen_img);
 
         isSKUScanned = false;
@@ -1544,7 +1544,7 @@ public class ItemPutawayFragment extends Fragment implements View.OnClickListene
                                 owmsExceptionMessage = new WMSExceptionMessage(_lExceptions.get(i).entrySet());
                             }
                             txtSKU.setText("");
-                            cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.skuColor));
+                            cvScanSKU.setCardBackgroundColor(getResources().getColor(R.color.primarycolor));
                             ivScanSKU.setImageResource(R.drawable.fullscreen_img);
                             ProgressDialogUtils.closeProgressDialog();
                             common.showAlertType(owmsExceptionMessage, getActivity(), getContext());

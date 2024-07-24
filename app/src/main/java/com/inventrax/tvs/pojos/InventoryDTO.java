@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.internal.LinkedTreeMap;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -162,7 +163,13 @@ public class InventoryDTO {
 
 
     @SerializedName("CaseList")
-    private String CaseList;
+    private List <String> CaseList;
+
+    @SerializedName("WorkOrderNumber")
+    private String WorkOrderNumber;
+
+    @SerializedName("PalletNumber")
+    private String PalletNumber;
     private boolean isChecked=false;
 
     public InventoryDTO() {
@@ -455,11 +462,19 @@ public class InventoryDTO {
                     }
                     break;
 
-                case "CaseList":
+
+                case "WorkOrderNumber":
                     if (entry.getValue() != null) {
-                        this.setCaseList(entry.getValue().toString());
+                        this.setWorkOrderNumber(entry.getValue().toString());
                     }
                     break;
+
+                case "PalletNumber":
+                    if (entry.getValue() != null) {
+                        this.setPalletNumber(entry.getValue().toString());
+                    }
+                    break;
+
 
 
             }
@@ -956,11 +971,27 @@ public class InventoryDTO {
         SugLocation = sugLocation;
     }
 
-    public String getCaseList() {
+    public List<String> getCaseList() {
         return CaseList;
     }
 
-    public void setCaseList(String caseList) {
+    public void setCaseList(List<String> caseList) {
         CaseList = caseList;
+    }
+
+    public String getWorkOrderNumber() {
+        return WorkOrderNumber;
+    }
+
+    public void setWorkOrderNumber(String workOrderNumber) {
+        WorkOrderNumber = workOrderNumber;
+    }
+
+    public String getPalletNumber() {
+        return PalletNumber;
+    }
+
+    public void setPalletNumber(String palletNumber) {
+        PalletNumber = palletNumber;
     }
 }
