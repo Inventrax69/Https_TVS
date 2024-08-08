@@ -11,8 +11,8 @@ android {
         applicationId "com.inventrax.tvs"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 1
-        versionName "T1.0.0"
+        versionCode 2
+        versionName "T1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true

@@ -331,8 +331,8 @@ public class PalletReceivingFragment extends Fragment implements View.OnClickLis
             String palletNumber = parts[0];
 
 
-            String workOrderNumber = palletNumber.substring(0, 10);
-            String initialCaseNumber = palletNumber.substring(10);
+            String workOrderNumber = palletNumber.substring(2, 12);
+            String initialCaseNumber = palletNumber.substring(12).trim();
 
             // Create a list for the case numbers
             caseList.add(initialCaseNumber);

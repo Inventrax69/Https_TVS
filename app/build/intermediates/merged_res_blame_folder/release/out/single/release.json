@@ -200,12 +200,20 @@
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_header_flagged_bins.xml"
     },
     {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_loading_details.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_loading_details.xml"
+    },
+    {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_workorder_revert.xml.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_workorder_revert.xml"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\drawable_cycle_count.png.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\cycle_count.png"
+    },
+    {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_loading_header.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_loading_header.xml"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_load_sheet_generation.xml.flat",
@@ -694,6 +702,10 @@
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\drawable_falconwms_logo.png.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\falconwms_logo.png"
+    },
+    {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\layout_fragment_outdrop_to_loading_transfers.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_outdrop_to_loading_transfers.xml"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\release\\drawable_cross_circle.xml.flat",

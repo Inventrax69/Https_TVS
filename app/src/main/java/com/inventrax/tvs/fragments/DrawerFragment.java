@@ -92,7 +92,7 @@ import java.util.List;
          listDataChild = new HashMap<String, List<String>>();
 
      if(DepartmentIDs.equals("") || DepartmentIDs ==null) {
-            DepartmentIDs ="1,2,3,4,5,6,7,8,9,10,11";
+            DepartmentIDs ="1,2,3,4,5,6,7,8,9,10,11,12";
          }
 
          String[] stringsUserRole = DepartmentIDs.split(",");
@@ -106,11 +106,12 @@ import java.util.List;
                          mainListInbound.add("Receiving");
                          break;
                      case "2":
-                         mainListInbound.add("AGV Putaway");
-                         break;
-                     case "3":
                          mainListOutbound.add("Picking");
                          break;
+                     case "3":
+                         mainListOutbound.add("Loading Transfer");
+                         break;
+
                      case "4":
                          mainListHouseKeeping.add("Bin to Bin");
                          break;
@@ -120,9 +121,12 @@ import java.util.List;
                      case "6":
                          mainListHouseKeeping.add("Cycle Count");
                          break;
-                    case "7":
-                         mainListHouseKeeping.add("Stock Take");
+                     case "7":
+                         mainListOutbound.add("Loading");
                          break;
+                  /*  case "7":
+                         mainListHouseKeeping.add("Stock Take");
+                         break;*/
                      case "8":
                          mainListHouseKeeping.add("Material Transfers");
                          break;
@@ -135,6 +139,7 @@ import java.util.List;
                      case "11":
                          mainListInbound.add("Item  Putaway");
                          break;
+
 
                  }
              }
@@ -490,6 +495,16 @@ import java.util.List;
 
              case "AGV Auto Transfers": {
                  FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, new VNATransfersFragment());
+             }
+break;
+             case "Loading Transfer": {
+                 FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, new OutdropToLoadingTransfersFragment());
+             }
+
+             break;
+
+             case "Loading": {
+                 FragmentUtils.replaceFragmentWithBackStack(getActivity(), R.id.container_body, new LoadingHeaderFragment());
              }
 
              break;

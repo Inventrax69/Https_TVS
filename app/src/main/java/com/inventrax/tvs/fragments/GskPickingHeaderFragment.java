@@ -578,6 +578,7 @@ public class GskPickingHeaderFragment extends Fragment implements View.OnClickLi
             outbountDTO.setUserId(userId);
             outbountDTO.setAccountId(accountId);
             outbountDTO.setRID(0);
+            outbountDTO.setResult("0");
             message.setEntityObject(outbountDTO);
 
             Call<String> call = null;

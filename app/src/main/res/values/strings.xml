@@ -219,7 +219,7 @@
     <string name="container">From Pallet</string>
     <string name="skip">Skip</string>
     <string name="ok_">OK</string>
-    <string name="hintContainer">Container</string>
+    <string name="hintContainer">Scan Container</string>
     <string name="ccexport">Export</string>
     <string name="select_vehicle">Select Vehicle</string>
     <string name="select_wh">Select WH</string>
@@ -323,6 +323,11 @@
 
     <string name="sug_pallet">Suggested Pallet :</string>
     <string name="sug_loc">Suggested Location :</string>
+    <string name="title_outdroptoloading">Loading Transfer</string>
+
+    <string name="container_number">Container No. :</string>
+
+    <string name="selectContainer">Select Container</string>
 
 
 

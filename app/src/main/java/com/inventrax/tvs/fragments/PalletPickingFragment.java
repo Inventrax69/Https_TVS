@@ -106,7 +106,7 @@ public class PalletPickingFragment extends Fragment implements View.OnClickListe
     private int tenantId , whId ;
     List<HouseKeepingDTO> lstTenants = null;
     List<HouseKeepingDTO> lstWarehouse = null;
-    TextView lblPickListNo,txtTendentName,txtFromPallet,txtLocation;
+    TextView lblPickListNo,txtTendentName,txtFromPallet,txtLocation,lblCount;
     ListView sku_list;
     SDKAdapter adapter;
 
@@ -186,7 +186,7 @@ public class PalletPickingFragment extends Fragment implements View.OnClickListe
 
         txtFromPallet = (TextView) rootView.findViewById(R.id.txtFromPallet);
         txtLocation = (TextView) rootView.findViewById(R.id.txtLocation);
-
+        lblCount= (TextView) rootView.findViewById(R.id.lblCount);
         sug_loc = (TextView) rootView.findViewById(R.id.sug_loc);
 
         lstTenants = new ArrayList<HouseKeepingDTO>();
@@ -349,7 +349,7 @@ public class PalletPickingFragment extends Fragment implements View.OnClickListe
 
                     if (txtFromPallet.getText().toString().equalsIgnoreCase(palletNumber)){
 
-                        String initialCaseNumber = palletNumber.substring(10);
+                        String initialCaseNumber = palletNumber.substring(12).trim();
 
                         // Create a list for the case numbers
                         caseList.add(initialCaseNumber);
@@ -357,7 +357,7 @@ public class PalletPickingFragment extends Fragment implements View.OnClickListe
                         // Add the rest of the elements to the caseList
                         caseList.addAll(Arrays.asList(parts).subList(1, parts.length));
                         isPalletScaned=true;
-                        txtFromPallet.setText(scannedData);
+                       // txtFromPallet.setText(scannedData);
                         cvScanFromCont.setCardBackgroundColor(getResources().getColor(R.color.white));
                         ivScanFromCont.setImageResource(R.drawable.check);
                         loadList(caseList);
@@ -1020,7 +1020,7 @@ public class PalletPickingFragment extends Fragment implements View.OnClickListe
                                     sug_loc.setText(oOutboundDTO.getLocation());
                                     txtFromPallet.setText(oOutboundDTO.getPalletNo());
 
-
+                                    lblCount.setText(oOutboundDTO.getPickedQty() + "/" + oOutboundDTO.getAssignedQuantity());
                                     if(sug_loc.getText().toString().equals("")){
                                         common.showUserDefinedAlertType(errorMessages.EMC_0063 + lblPickListNo.getText().toString(), getActivity(), getContext(), "Success");
                                         Clearfields();

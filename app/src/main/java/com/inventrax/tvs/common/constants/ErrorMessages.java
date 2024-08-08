@@ -183,5 +183,5 @@ public class ErrorMessages {
 
     public String EMC_102 = " Successfully received";
 
-
+    public String EMC_103 = "Please select Container Number";
 }

@@ -86,7 +86,7 @@ public class AboutFragment extends Fragment implements View.OnClickListener {
 
             lblReleaseDate = (TextView) rootView.findViewById(R.id.lblReleaseDate);
             txtReleaseDate = (TextView) rootView.findViewById(R.id.txtReleaseDate);
-            txtReleaseDate.setText("15-03-2023");
+            txtReleaseDate.setText("26-07-2024");
 
         } catch (Exception ex) {
             Log.d(com.inventrax.tvs.fragments.AboutFragment.class.getName(), ex.toString());

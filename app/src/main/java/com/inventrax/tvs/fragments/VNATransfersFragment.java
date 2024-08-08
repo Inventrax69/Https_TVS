@@ -557,8 +557,11 @@ public class VNATransfersFragment extends Fragment implements View.OnClickListen
 
 
                    if (!isPalletScanned) {
-                       if (etPallet.getText().toString().equals(scannedData)) {
-                           VNAPalletScan(scannedData);
+                       String[] parts = scannedData.split(",");
+
+                       String palletNumber = parts[0];
+                       if (etPallet.getText().toString().equals(palletNumber)) {
+                           VNAPalletScan(palletNumber);
                        } else {
                            cvScanPallet.setCardBackgroundColor(getResources().getColor(R.color.white));
                            ivScanPallet.setImageResource(R.drawable.warning_img);

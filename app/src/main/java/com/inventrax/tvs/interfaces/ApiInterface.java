@@ -377,4 +377,23 @@ public interface ApiInterface {
     @POST("HouseKeeping/GeneratePutawaySuggestion_TVS")
     Call<String> GeneratePutawaySuggestion_TVS(@Body WMSCoreMessage oRequest);
 
+
+
+    @POST("HouseKeeping/GenerateLoadingSuggestion")
+    Call<String> GenerateLoadingSuggestion(@Body WMSCoreMessage oRequest);
+
+
+    @POST("HouseKeeping/TransferOutdropToLoading")
+    Call<String> TransferOutdropToLoading(@Body WMSCoreMessage oRequest);
+
+
+
+    @POST("Outbound/GetContainerDetails")
+    Call<String> GetContainerDetails(@Body WMSCoreMessage oRequest);
+
+    @POST("Outbound/UpsertLoading")
+    Call<String> UpsertLoading(@Body WMSCoreMessage oRequest);
+
+
+
 }

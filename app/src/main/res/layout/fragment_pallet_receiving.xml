@@ -323,7 +323,7 @@
                         android:layout_marginLeft="2dp"
                         android:text="@string/case_list"
                         android:textColor="@color/black"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 

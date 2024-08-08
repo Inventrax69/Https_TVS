@@ -2026,6 +2026,7 @@ id sno
 id so_number
 id spacer
 id spinnerSONumber
+id spinnerSelectContainer
 id spinnerSelectCycleCount
 id spinnerSelectDivision
 id spinnerSelectJobOrder
@@ -2134,6 +2135,7 @@ id tvScanSONumber
 id tvScanSku
 id tvScanToLocation
 id tvScanToPallet
+id tvSelectContainer
 id tvSelectCycleCount
 id tvSelectDivision
 id tvSelectJobOrder
@@ -2214,7 +2216,10 @@ id txt_blockedlocations
 id txt_cc_name
 id txt_cyclecount
 id txt_obd
+id txtcontainer
+id txtfromlocation
 id txtinput
+id txtsuggestedlocation
 id txtworkorder
 id uniform
 id unlabeled
@@ -2339,6 +2344,8 @@ layout fragment_livestock
 layout fragment_load_sheet
 layout fragment_load_sheet_generation
 layout fragment_loading
+layout fragment_loading_details
+layout fragment_loading_header
 layout fragment_materialtransfer
 layout fragment_navigation_drawer
 layout fragment_navigation_drawer_withlist
@@ -2347,6 +2354,7 @@ layout fragment_obd_picking
 layout fragment_obdpicking_header
 layout fragment_outbound_revert
 layout fragment_outboundrevert_header
+layout fragment_outdrop_to_loading_transfers
 layout fragment_packing
 layout fragment_packinginfo
 layout fragment_pallet_picking
@@ -2533,6 +2541,7 @@ string configure_url
 string configure_url_correctly
 string confirm
 string container
+string container_number
 string cycleCount
 string cycle_count
 string delete
@@ -2709,6 +2718,7 @@ string search
 string search_menu_title
 string search_sku
 string selectCC
+string selectContainer
 string selectJobOrder
 string selectLoadSheet
 string selectOBD
@@ -2772,6 +2782,7 @@ string title_activity_vbpl_list
 string title_activity_vlpd_pick
 string title_activity_vna_transfer
 string title_obd_delete
+string title_outdroptoloading
 string title_palletization
 string title_sorting
 string title_vlpd_delete

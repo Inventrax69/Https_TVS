@@ -144,19 +144,19 @@
 
                 <TextView
                     android:id="@+id/txtTendentName"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:layout_gravity="center"
-                    android:text="OBD Number :"
+                    android:text="OBD :"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/lblPickListNo"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_marginRight="4dp"
@@ -166,6 +166,18 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
+
+                <TextView
+                    android:id="@+id/lblCount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

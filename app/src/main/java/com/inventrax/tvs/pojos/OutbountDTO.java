@@ -301,6 +301,9 @@ public class OutbountDTO implements Serializable {
     @SerializedName("IsWorkOrder")
     private String IsWorkOrder;
 
+    @SerializedName("ContainerName")
+    private String ContainerName;
+
 
     public OutbountDTO() {
 
@@ -823,6 +826,13 @@ public class OutbountDTO implements Serializable {
                         this.setIsWorkOrder(entry.getValue().toString());
                     }
                     break;
+
+                case "ContainerName":
+                    if (entry.getValue() != null) {
+                        this.setContainerName(entry.getValue().toString());
+                    }
+                    break;
+
             }
         }
     }
@@ -1604,5 +1614,13 @@ public class OutbountDTO implements Serializable {
 
     public void setIsWorkOrder(String isWorkOrder) {
         IsWorkOrder = isWorkOrder;
+    }
+
+    public String getContainerName() {
+        return ContainerName;
+    }
+
+    public void setContainerName(String containerName) {
+        ContainerName = containerName;
     }
 }

@@ -24,6 +24,10 @@
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\home.xml"
     },
     {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_loading_details.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_loading_details.xml"
+    },
+    {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_settings.xml.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
@@ -40,12 +44,12 @@
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_skip_dialog.xml.flat",
-        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\skip_dialog.xml"
-    },
-    {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_mlogo.png.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\mlogo.png"
+    },
+    {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_skip_dialog.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\skip_dialog.xml"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_sku_bag.xml.flat",
@@ -280,12 +284,12 @@
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\cc_export_row.xml"
     },
     {
-        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_pass.png.flat",
-        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\pass.png"
-    },
-    {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_falconwms_logo.png.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\falconwms_logo.png"
+    },
+    {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_pass.png.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\pass.png"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_packinginfo.xml.flat",
@@ -704,6 +708,10 @@
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\raw\\exception.mp3"
     },
     {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_outdrop_to_loading_transfers.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_outdrop_to_loading_transfers.xml"
+    },
+    {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_close.png.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\drawable\\close.png"
     },
@@ -726,6 +734,10 @@
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\anim_bounce_animation.xml.flat",
         "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\anim\\bounce_animation.xml"
+    },
+    {
+        "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_loading_header.xml.flat",
+        "source": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\src\\main\\res\\layout\\fragment_loading_header.xml"
     },
     {
         "merged": "D:\\Nagendra Kumar\\AndroidProjects\\Https_TVS\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu_dashboard.png.flat",

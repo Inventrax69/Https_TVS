@@ -46,13 +46,16 @@ import com.inventrax.tvs.fragments.ItemPutawayFragment;
 import com.inventrax.tvs.fragments.LiveStockFragment;
 import com.inventrax.tvs.fragments.LoadGenerationFragment;
 import com.inventrax.tvs.fragments.LoadSheetFragment;
+import com.inventrax.tvs.fragments.LoadingDetailsFragment;
 import com.inventrax.tvs.fragments.LoadingFragment;
+import com.inventrax.tvs.fragments.LoadingHeaderFragment;
 import com.inventrax.tvs.fragments.MaterialTransferFragment;
 import com.inventrax.tvs.fragments.NewLoadSheetFragment;
 import com.inventrax.tvs.fragments.OBDPickingDetailsFragment;
 import com.inventrax.tvs.fragments.OBDPickingHeaderFragment;
 import com.inventrax.tvs.fragments.OutboundRevertDetailsFragment;
 import com.inventrax.tvs.fragments.OutboundRevertHeaderFragment;
+import com.inventrax.tvs.fragments.OutdropToLoadingTransfersFragment;
 import com.inventrax.tvs.fragments.PackingFragment;
 import com.inventrax.tvs.fragments.PackingInfoFragment;
 import com.inventrax.tvs.fragments.PalletPickingFragment;
@@ -182,8 +185,6 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
 
 
         if (ScannedData != null) {
-
-
 
             FragmentManager fragmentManager = getSupportFragmentManager();
 
@@ -323,6 +324,18 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
                 }
                 if (fragment != null && fragment.isVisible() && fragment instanceof PalletPickingFragment) {
                     ((PalletPickingFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
+                }
+
+                if (fragment != null && fragment.isVisible() && fragment instanceof OutdropToLoadingTransfersFragment) {
+                    ((OutdropToLoadingTransfersFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
+                }
+
+                if (fragment != null && fragment.isVisible() && fragment instanceof LoadingDetailsFragment) {
+                    ((LoadingDetailsFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
+                }
+
+                if (fragment != null && fragment.isVisible() && fragment instanceof LoadingHeaderFragment) {
+                    ((LoadingHeaderFragment) fragment).myScannedData(com.inventrax.tvs.activities.MainActivity.this, ScannedData);
                 }
             }
         }
